@@ -14,6 +14,6 @@
 ```
 
 ```
-  rosrun rosserial_python serial_node.py /dev/ttyUSB0
-  rosrun rosserial_arduino serial_node.py _port:=/dev/ttyUSB0
+  rosrun rosserial_python serial_node.py __name:=serial_node_arduino0 _port:=/dev/ttyUSB0
+  rosrun rosserial_python serial_node.py __name:=serial_node_arduino1 _port:=/dev/ttyUSB1
 ```
